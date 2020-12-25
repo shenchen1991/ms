@@ -3,11 +3,11 @@ package com.sc.ms.demo.jvm;
 import java.lang.ref.WeakReference;
 
 /**
- * @program: ms
- * @description:
- * @author: 沈陈
- * @create: 2020-12-23 19:14
- **/
+ * 弱引用演示
+ *
+ * @author 沈陈
+ * @date 2020/12/25
+ */
 public class WeakReferenceDemo {
     public static void main(String[] args) {
         Object o1 = new Object();
