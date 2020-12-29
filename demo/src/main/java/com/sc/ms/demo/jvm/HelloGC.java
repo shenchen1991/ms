@@ -14,7 +14,7 @@ public class HelloGC {
 //        long maxMemory = Runtime.getRuntime().maxMemory();// jvm 最大内存值 默认1/4
 //        System.out.println("total memory =" + totalMemory + "、" + (totalMemory / (1024 * 1024)));
 //        System.out.println("max memory =" + maxMemory + "、" + (maxMemory / (1024 * 1024)));
-//        TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
+        TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
 
 //        byte[] bytes = new byte[10 * 1024 *1024];
     }
