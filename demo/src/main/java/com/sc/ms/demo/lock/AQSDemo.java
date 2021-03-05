@@ -1,6 +1,7 @@
 package com.sc.ms.demo.lock;
 
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -12,7 +13,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class AQSDemo {
 
     public static void main(String[] args) {
-         Lock lock = new ReentrantLock();
+        Lock lock = new ReentrantLock();
+//        LockSupport.pa
 
     }
 
